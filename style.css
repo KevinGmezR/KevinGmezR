@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffc400;
+    color: white;
+}
+#tabla{
+    width: auto;
+    height: 700px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+}
+table{
+    display: flex;
+    justify-content: center;
+    color: #ffc400;
+    text-align: center;
+    background-color: #fae396;
+}
+table td{
+    color: gray;
+    font-weight: 900;
+    background-color: whitesmoke;
+    margin:0 10px;
+}
+button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgb(107, 107, 107),
+                -2px -2px 4px #fff;
+    position: relative;
+    top: 90%;
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(194, 194, 194);
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+    scale: 105%;
+    font-weight: 700;
+}
